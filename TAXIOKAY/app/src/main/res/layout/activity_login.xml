@@ -61,6 +61,7 @@
                         android:layout_width="250dp"
                         android:layout_height="60dp"
                         android:hint="Matrícula"
+                        android:gravity="center"
                         android:inputType="text"
                         android:maxLines="1"
                         android:singleLine="true"
@@ -84,6 +85,7 @@
                         android:id="@+id/password"
                         android:layout_width="250dp"
                         android:layout_gravity="center"
+                        android:gravity="center"
                         android:layout_height="wrap_content"
                         android:hint="Contraseña"
                         android:imeActionId="6"
@@ -98,11 +100,14 @@
                 <Button
                     android:id="@+id/login"
                     style="?android:textAppearanceSmall"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
                     android:layout_marginTop="16dp"
                     android:text="Iniciar Sesión"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:backgroundTint="@android:color/holo_blue_dark"
+                    android:textColor="@android:color/white"/>
                 <TextView
                     android:id="@+id/registro"
                     android:layout_width="wrap_content"

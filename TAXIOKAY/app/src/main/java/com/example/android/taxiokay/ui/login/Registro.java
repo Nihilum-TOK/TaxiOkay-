@@ -31,6 +31,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.example.android.taxiokay.R;
+import com.example.android.taxiokay.data.RegisterNumber;
 import com.example.android.taxiokay.ui.login.LoginActivity;
 
 import java.io.BufferedReader;
@@ -452,7 +453,8 @@ public class Registro extends AppCompatActivity implements LoaderCallbacks<Curso
     }
 
     private void registroExitoso(){
-        Intent signUpBien= new Intent(this, LoginActivity.class);
+        Intent signUpBien = new Intent(this, RegisterNumber.class);
+        //Intent signUpBien= new Intent(this, LoginActivity.class);
         startActivity(signUpBien);
     }
 

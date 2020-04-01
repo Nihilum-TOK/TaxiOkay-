@@ -47,6 +47,7 @@
                     android:layout_gravity="center_horizontal"
                     android:hint="Matrícula"
                     android:inputType="text"
+                    android:gravity="center"
                     android:maxLines="1"
                     android:singleLine="true" />
 
@@ -63,6 +64,7 @@
                     android:layout_height="60dp"
                     android:layout_gravity="center_horizontal"
                     android:hint="Nombre"
+                    android:gravity="center"
                     android:inputType="text"
                     android:maxLines="1"
                     android:singleLine="true" />
@@ -80,6 +82,7 @@
                     android:layout_height="60dp"
                     android:layout_gravity="center_horizontal"
                     android:hint="Teléfono"
+                    android:gravity="center"
                     android:inputType="text"
                     android:maxLines="1"
                     android:singleLine="true" />
@@ -113,6 +116,7 @@
                     android:layout_height="60dp"
                     android:layout_gravity="center_horizontal"
                     android:hint="Contraseña"
+                    android:gravity="center"
                     android:imeActionId="6"
                     android:imeActionLabel="@string/action_sign_in_short"
                     android:imeOptions="actionUnspecified"
@@ -130,7 +134,9 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="30dp"
                 android:text="Registrarse"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:textColor="@android:color/white"/>
 
 
         </LinearLayout>
